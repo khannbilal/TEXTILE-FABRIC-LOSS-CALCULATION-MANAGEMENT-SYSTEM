@@ -37,7 +37,7 @@ Affiliation: National Textile University
  Developed a web dashboard with KPI metrics (loss %, production rate, cost impact).
  Enabled daily, weekly, and monthly analytics reports with export functionality.
 
- 5. System Architecture (Textual Diagram)
+# System Architecture (Textual Diagram)
 
         ┌────────────────────────────┐
         │  Production Line Sensors   │
