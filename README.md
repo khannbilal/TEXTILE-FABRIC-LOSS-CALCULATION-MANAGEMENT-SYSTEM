@@ -37,6 +37,31 @@ Affiliation: National Textile University
  Developed a web dashboard with KPI metrics (loss %, production rate, cost impact).
  Enabled daily, weekly, and monthly analytics reports with export functionality.
 
+ 5. System Architecture (Textual Diagram)
+
+        ┌────────────────────────────┐
+        │  Production Line Sensors   │
+        └───────────┬────────────────┘
+                    │
+           ┌────────▼────────┐
+           │ Data Aggregator │
+           │ (Roll Metrics)  │
+           └────────┬────────┘
+                    │
+           ┌────────▼────────┐
+           │ Loss Engine     │
+           │ (Python Backend)│
+           └────────┬────────┘
+                    │
+           ┌────────▼────────┐
+           │ Inventory Module│
+           └────────┬────────┘
+                    │
+           ┌────────▼────────┐
+           │ Analytics UI    │
+           │ (Dashboard)     │
+           └─────────────────┘
+
 # Results
 | Metric             | Before | After Implementation | Improvement |
 | Fabric Waste       | 12.5%  | 10.0%            | ↓ 20%       |
@@ -47,30 +72,6 @@ Affiliation: National Textile University
  Reduced overall material wastage by 20%.
  Enhanced inventory transparency and production traceability.
  Minimized manual record-keeping errors through full automation.
-
-# System Architecture (Textual Diagram)
-┌────────────────────────────┐
-│  Production Line Sensors   │
-└───────────┬────────────────┘
-            │
-   ┌────────▼────────┐
-   │ Data Aggregator  │
-   │ (Roll Metrics)   │
-   └────────┬────────┘
-            │
-   ┌────────▼────────┐
-   │ Loss Engine      │
-   │ (Python Backend) │
-   └────────┬────────┘
-            │
-   ┌────────▼────────┐
-   │ Inventory Module │
-   └────────┬────────┘
-            │
-   ┌────────▼────────┐
-   │ Analytics UI     │
-   │ (Dashboard)      │
-   └─────────────────┘
 
 # Conclusion
 This fabric loss management platform provided a scalable digital solution for resource optimization in textile industries, driving measurable cost savings and process visibility. The integration of Python-based automation and inventory intelligence positioned the system for adoption in Industry 4.0 manufacturing frameworks.
