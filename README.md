@@ -48,7 +48,7 @@ Affiliation: National Textile University
  Enhanced inventory transparency and production traceability.
  Minimized manual record-keeping errors through full automation.
 
-System Architecture (Textual Diagram)
+# System Architecture (Textual Diagram)
 ┌────────────────────────────┐
 │  Production Line Sensors   │
 └───────────┬────────────────┘
